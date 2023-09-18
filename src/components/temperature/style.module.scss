@@ -1,0 +1,17 @@
+.temp__wrapper {
+	font-size: 50px;
+    margin-bottom: 30px;
+    @media (max-width: 460px) {
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    @media (max-width: 380px) {
+        font-size: 25px;
+    }
+    @media (max-height: 330px) {
+        margin-bottom: 10px;
+    }
+}
+.temp__value {
+	font-weight: 800;
+}
