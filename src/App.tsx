@@ -5,9 +5,8 @@ import Info from "./components/info/Info"
 import { useLazyGetWeatherApiQuery } from "./redux/services/openWeather"
 
 function App() {
-	
+
 	const [getWeather, results] = useLazyGetWeatherApiQuery({});
-	console.log(results);
 	
 	return (
 		<div className='wrapper'>
